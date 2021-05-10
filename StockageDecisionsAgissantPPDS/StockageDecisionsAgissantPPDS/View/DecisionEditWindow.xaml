@@ -1,0 +1,12 @@
+﻿<Window Name="DecisionEditWindowRoot"
+        x:Class="StockageDecisionsAgissantPPDS.View.DecisionEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StockageDecisionsAgissantPPDS.View"
+        xmlns:decision="clr-namespace:StockageDecisionsAgissantPPDS.ViewModel.Decision"
+        mc:Ignorable="d" Title="{Binding EditedDecision}" Height="600" Width="800"
+        d:DataContext="{d:DesignInstance {x:Type decision:DecisionEditViewModel}}" >
+    <local:DécisionsPage DataContext="{Binding DataContext, ElementName=DecisionEditWindowRoot}" />
+</Window>

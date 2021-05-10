@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="StockageDecisionsAgissantPPDS.View.ParamètresPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:design="clr-namespace:StockageDecisionsAgissantPPDS.Design"
+             xmlns:string="clr-namespace:Normacode.Wpf.Converters.String;assembly=Normacode.Wpf.Converters"
+             xmlns:system="clr-namespace:System;assembly=System"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance Type={x:Type design:DesignParamètresViewModel}, IsDesignTimeCreatable=True}"
+             d:DesignHeight="600" d:DesignWidth="800">
+    <d:DesignerProperties.DesignStyle>
+        <Style TargetType="UserControl">
+            <Setter Property="Background" Value="#FFF3F3F3" />
+        </Style>
+    </d:DesignerProperties.DesignStyle>
+    
+    <UserControl.Resources>
+        <string:UriToStringConverter x:Key="UriToStringConverter" />
+        <string:CharToStringConverter x:Key="CharToStringConverter" />
+        <Style BasedOn="{StaticResource BoldLabel}" TargetType="Label">
+            <Setter Property="Margin" Value="0,5,0,0"/>
+        </Style>
+    </UserControl.Resources>
+<StackPanel>
+    <StackPanel Margin="15,20,15,15" IsEnabled="{Binding SettingsEnabled}">
+        <Label Content="Domaines :"/>
+        <ListBox ItemsSource="{Binding PersisterDomainesSourceValues, Mode=OneTime}" 
+                 Style="{StaticResource RadioButtonList}"
+                 SelectedItem="{Binding PersisterDomainesSource}" />
+
+        <Label Content="Décisions :"/>
+        <ListBox ItemsSource="{Binding PersisterTypeValues, Mode=OneTime}" 
+                 Style="{StaticResource RadioButtonList}"
+                 SelectedItem="{Binding PersisterType}" />
+
+        <Label Content="Lien RSS :" IsEnabled="{Binding IsRSSUsed.Value}"/>
+        <TextBox IsEnabled="{Binding IsRSSUsed.Value}" Text="{Binding PersisterRssUri, 
+            ValidatesOnExceptions=True,
+            Converter={StaticResource UriToStringConverter}, 
+            UpdateSourceTrigger=LostFocus,
+            ConverterParameter={x:Static system:UriKind.RelativeOrAbsolute}}" />
+
+        <Label Content="Chemin du fichier CSV :" IsEnabled="{Binding IsCsvUsed.Value}"/>
+        <TextBox IsEnabled="{Binding IsCsvUsed.Value}" Text="{Binding PersisterCsvPath, 
+            ValidatesOnExceptions=True, UpdateSourceTrigger=LostFocus}"/>
+        <Label Content="Separateur :" IsEnabled="{Binding IsCsvUsed.Value}"/>
+        <TextBox Text="{Binding CsvSeparator, Converter={StaticResource CharToStringConverter}}" 
+                 MaxLength="1" Width="30" IsEnabled="{Binding IsCsvUsed.Value}"/>
+    </StackPanel>
+        <Button Style="{StaticResource LabelButtonBlue}" FontSize="11" Content="Ouvrir les logs" 
+                HorizontalAlignment="Right" Command="{Binding LogFileCommand}" />
+    </StackPanel>
+</UserControl>

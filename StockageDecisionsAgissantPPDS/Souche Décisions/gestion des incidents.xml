@@ -1,0 +1,7 @@
+<rss version="2.0">
+  <channel>
+    <title>Gestion des incidents</title>
+    <link>http://localhost:8080/gestion des incidents.xml</link>
+    <description></description>
+  </channel>
+</rss>

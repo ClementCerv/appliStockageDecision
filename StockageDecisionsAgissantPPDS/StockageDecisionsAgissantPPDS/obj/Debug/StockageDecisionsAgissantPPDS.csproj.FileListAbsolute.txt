@@ -1,0 +1,153 @@
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.exe.config
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.exe
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.pdb
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\JetBrains.Annotations.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Accounting.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Command.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.DDD.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Design.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Encapsulation.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.HashCode.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.InstanceProperty.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.IO.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.IO.WebDAV.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Patterns.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.RSS.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Wpf.Controls.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Wpf.Converters.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.ValueTuple.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.Windows.Interactivity.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\WebDav.Client.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\JetBrains.Annotations.xml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.ValueTuple.xml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\Style\CustomStyle.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\App.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DecisionEditWindow.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DécisionsPage.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ListePage.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\MainWindow.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ParamètresPage.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesCreateView.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesEditView.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionsList.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionViewUserControl.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\App.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS_MarkupCompile.cache
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS_MarkupCompile.lref
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DecisionEditWindow.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DécisionsPage.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ListePage.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\MainWindow.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ParamètresPage.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesCreateView.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesEditView.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionsList.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionViewUserControl.baml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.g.resources
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.csproj.CoreCompileInputs.cache
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.exe
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.pdb
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.csprojResolveAssemblyReference.cache
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.exe.config
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.exe
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.pdb
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\JetBrains.Annotations.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Accounting.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Command.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.DDD.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Design.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Encapsulation.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.HashCode.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.InstanceProperty.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.IO.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.IO.WebDAV.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Patterns.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.RSS.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Wpf.Controls.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Wpf.Converters.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.ValueTuple.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.Windows.Interactivity.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\WebDav.Client.dll
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\JetBrains.Annotations.xml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.ValueTuple.xml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.csprojResolveAssemblyReference.cache
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\Style\CustomStyle.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\App.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DecisionEditWindow.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DécisionsPage.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ListePage.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\MainWindow.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ParamètresPage.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesCreateView.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesEditView.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionsList.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionViewUserControl.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\App.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS_MarkupCompile.cache
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS_MarkupCompile.lref
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DecisionEditWindow.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DécisionsPage.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ListePage.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\MainWindow.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ParamètresPage.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesCreateView.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesEditView.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionsList.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionViewUserControl.baml
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.g.resources
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.csproj.CoreCompileInputs.cache
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.exe
+E:\boulot edf\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.pdb
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.exe.config
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.exe
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\StockageDecisionsAgissantPPDS.pdb
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\JetBrains.Annotations.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Accounting.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Command.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.DDD.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Design.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Encapsulation.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.HashCode.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.InstanceProperty.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.IO.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.IO.WebDAV.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Patterns.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.RSS.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Wpf.Controls.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\Normacode.Wpf.Converters.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.ValueTuple.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\WebDav.Client.dll
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\JetBrains.Annotations.xml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\bin\Debug\System.ValueTuple.xml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.csprojResolveAssemblyReference.cache
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\Style\CustomStyle.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\App.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DecisionEditWindow.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DécisionsPage.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ListePage.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\MainWindow.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ParamètresPage.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesCreateView.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesEditView.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionsList.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionViewUserControl.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\App.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS_MarkupCompile.cache
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS_MarkupCompile.lref
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DecisionEditWindow.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\DécisionsPage.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ListePage.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\MainWindow.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\ParamètresPage.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesCreateView.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionPropertiesEditView.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionsList.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\View\UserControl\DecisionViewUserControl.baml
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.g.resources
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.csproj.CoreCompileInputs.cache
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.exe
+C:\Users\cerve\OneDrive\Bureau\StockageDecisionsAgissantPPDS\StockageDecisionsAgissantPPDS\obj\Debug\StockageDecisionsAgissantPPDS.pdb

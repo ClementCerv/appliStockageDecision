@@ -1,0 +1,16 @@
+﻿<Application x:Class="StockageDecisionsAgissantPPDS.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:Normacode.Wpf.Converters;assembly=Normacode.Wpf.Converters"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <converters:InverseBoolConverter x:Key="InverseBoolConverter" />
+            <converters:BoolToVisibleCollapseConverter x:Key="BoolToVisibleCollapseConverter" />
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Normacode.Design;component/Full.xaml" />
+                <ResourceDictionary Source="Style/CustomStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

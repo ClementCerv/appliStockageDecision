@@ -1,0 +1,31 @@
+﻿<UserControl Name="DecisionListRoot" d:DataContext="{d:DesignInstance {x:Type decision:DecisionsListViewModel}}"
+             x:Class="StockageDecisionsAgissantPPDS.View.UserControl.DecisionsList"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:decision="clr-namespace:StockageDecisionsAgissantPPDS.ViewModel.Decision"
+             xmlns:decision1="clr-namespace:StockageDecisionsAgissantPPDS.Model.Decision"
+             xmlns:userControl="clr-namespace:StockageDecisionsAgissantPPDS.View.UserControl"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type decision1:DecisionBuilder}">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="{Binding Titre}"/>
+                <Label Content=" du "/>
+                <Label Content="{Binding Date, StringFormat=d}"/>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type decision:DecisionViewModel}">
+            <userControl:DecisionViewUserControl
+                DataContext="{Binding}" 
+                DeleteCommand="{Binding DataContext.ToggleDeleteDecisionCommand, ElementName=DecisionListRoot}"
+                EditCommand="{Binding DataContext.EditDecisionCommand, ElementName=DecisionListRoot}"/>
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid IsEnabled="{Binding WorkInProgress.Value, Converter={StaticResource InverseBoolConverter}}">
+        <Label Visibility="{Binding WorkInProgress.Value, Converter={StaticResource BoolToVisibleCollapseConverter}}">Chargement en cours ...</Label>
+        <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ItemsSource="{Binding DecisionsList}"/>
+    </Grid>
+</UserControl>

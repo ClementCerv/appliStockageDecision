@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="StockageDecisionsAgissantPPDS.View.UserControl.DecisionPropertiesCreateView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:decision="clr-namespace:StockageDecisionsAgissantPPDS.ViewModel.Decision"
+             mc:Ignorable="d" d:DesignWidth="400"
+             d:DataContext="{d:DesignInstance {x:Type decision:DecisionCreateViewModel}}" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="*" MaxWidth="500" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Style="{StaticResource BoldLabel}" Content="Titre :" Grid.Column="0" Grid.Row="0" />
+        <Label Style="{StaticResource BoldLabel}" Content="Date :" Grid.Column="0" Grid.Row="1" />
+        <Label Style="{StaticResource BoldLabel}" Content="Description :" Grid.Column="0" Grid.Row="2" />
+        <Label Style="{StaticResource BoldLabel}" Content="Lien :" Grid.Column="0" Grid.Row="3" />
+
+        <TextBox HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="0"
+                 Text="{Binding DecisionBuilder.Value.Titre}" />
+        <DatePicker HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="1"
+                    SelectedDate="{Binding DecisionBuilder.Value.Date}" />
+        <TextBox Style="{StaticResource MultiLineTextBox}" Height="auto" HorizontalAlignment="Stretch"
+                 MaxHeight="100" Grid.Column="1" Grid.Row="2" Text="{Binding DecisionBuilder.Value.Description}" />
+        <TextBox HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="3"
+                 Text="{Binding Path=DecisionBuilder.Value.Lien, ValidatesOnExceptions=True}"/>
+        <Button Style="{StaticResource LabelButton}" Foreground="{StaticResource EDF_Blue_Light}" Grid.Row="4" Grid.Column="1" FontSize="13.0" HorizontalAlignment="Right"
+                Content="Ouvrir le lien" Command="{Binding ClickCommand}"/>
+    </Grid>
+</UserControl>

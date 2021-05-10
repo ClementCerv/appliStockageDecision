@@ -1,0 +1,28 @@
+﻿<Window x:Class="StockageDecisionsAgissantPPDS.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:view="clr-namespace:StockageDecisionsAgissantPPDS.View"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:viewModel="clr-namespace:StockageDecisionsAgissantPPDS.ViewModel"
+        mc:Ignorable="d" d:DataContext="{d:DesignInstance Type=viewModel:MainViewModel, IsDesignTimeCreatable=True}"
+        Title="StockageDecisionsAgissantPPDS"
+        MaxHeight="600" MaxWidth="800">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding OnLoadCommand}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <TabControl>
+        <TabItem Header="Décisions">
+            <view:DécisionsPage DataContext="{Binding DecisionCreateViewModel}" />
+        </TabItem>
+        <TabItem Header="Liste">
+            <view:ListePage DataContext="{Binding ListeViewModel}" />
+        </TabItem>
+        <TabItem Header="Paramètres">
+            <view:ParamètresPage DataContext="{Binding ParamètresViewModel}"/>
+        </TabItem>
+    </TabControl>
+</Window>

@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="StockageDecisionsAgissantPPDS.View.DécisionsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:decision="clr-namespace:StockageDecisionsAgissantPPDS.ViewModel.Decision"
+             xmlns:userControl="clr-namespace:StockageDecisionsAgissantPPDS.View.UserControl"
+             xmlns:controls="clr-namespace:Normacode.Wpf.Controls;assembly=Normacode.Wpf.Controls"
+             mc:Ignorable="d" d:DataContext="{d:DesignInstance {x:Type decision:DecisionsViewModelAbstract}}"
+             d:DesignHeight="600" d:DesignWidth="800">
+    <d:DesignerProperties.DesignStyle>
+        <Style TargetType="UserControl">
+            <Setter Property="Background" Value="#FFF3F3F3" />
+        </Style>
+    </d:DesignerProperties.DesignStyle>
+
+    <Grid IsEnabled="{Binding IsEnabled.Value}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.RowSpan="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+              Background="#BB000000" ZIndex="255"
+              Visibility="{Binding WorkInProgress.Value, Converter={StaticResource BoolToVisibleCollapseConverter}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1" HorizontalAlignment="Stretch" Background="White">
+                <Label Content="{Binding ComitMessage}" HorizontalAlignment="Center" 
+                       FontSize="40" Foreground="Black" VerticalAlignment="Center"/>
+            </Grid>
+        </Grid>
+
+        <Label Style="{StaticResource Title}" Grid.Row="0" Content="Décisions impactant PPDS"
+               HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20" />
+
+        <ContentControl Grid.Row="1" Margin="30,0,30,0" Content="{Binding}">
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type decision:DecisionCreateViewModel}">
+                    <userControl:DecisionPropertiesCreateView DataContext="{Binding}" />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type decision:DecisionEditViewModel}">
+                    <userControl:DecisionPropertiesEditView DataContext="{Binding}" />
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
+        
+        <Label Style="{StaticResource BoldLabel}" Grid.Row="2" Content="Domaine :" HorizontalAlignment="Left"
+               VerticalAlignment="Center" Margin="30,0" />
+        <Grid Grid.Row="3" Margin="20,0,10,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <ListBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Column="0"
+                     ItemsSource="{Binding ExcludedDomaineList}"
+                     controls:MultiSelectListBox.SelectedItems="{Binding AddSelectedDomaineList, Mode=TwoWay}"
+                     SelectionMode="Extended" IsSynchronizedWithCurrentItem="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDoubleClick">
+                        <i:InvokeCommandAction Command="{Binding AjouterSelectedDomainesCommand}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ListBox>
+            
+            <ListBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Row="0" Grid.Column="2"
+                     ItemsSource="{Binding IncludedDomaineList}"
+                     controls:MultiSelectListBox.SelectedItems="{Binding RemoveSelectedDomaineList, Mode=TwoWay}"
+                     SelectionMode="Extended" IsSynchronizedWithCurrentItem="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDoubleClick">
+                        <i:InvokeCommandAction Command="{Binding EnleverSelectedDomainesCommand}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ListBox>
+            
+            <DockPanel Grid.Row="0" Grid.Column="1" Margin="40,0" LastChildFill="False">
+                <Button Style="{StaticResource ButtonBlue}" Content="Ajouter" DockPanel.Dock="Top"
+                        Command="{Binding AjouterSelectedDomainesCommand}" />
+                <Button Style="{StaticResource ButtonBlue}" Content="Enlever" Margin="0,2,0,0" DockPanel.Dock="Top"
+                        Command="{Binding EnleverSelectedDomainesCommand}" />
+            </DockPanel>
+            
+            <DockPanel Grid.Row="1" Grid.Column="1">
+                <Button Style="{StaticResource ButtonGreen}" Content="Valider" DockPanel.Dock="Bottom"
+                        Margin="15,10,15,0" Command="{Binding CommitCommand}" />
+                <Button Style="{StaticResource ButtonRed}" Content="Réinitialiser" DockPanel.Dock="Bottom"
+                        Margin="15,0,15,0" Command="{Binding RollbackCommand}" />
+            </DockPanel>
+        </Grid>
+    </Grid>
+</UserControl>

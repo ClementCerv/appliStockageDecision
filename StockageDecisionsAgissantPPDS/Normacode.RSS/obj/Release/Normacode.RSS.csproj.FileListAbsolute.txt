@@ -1,0 +1,7 @@
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\Normacode.RSS\bin\Release\Normacode.RSS.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\Normacode.RSS\bin\Release\Normacode.RSS.pdb
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\Normacode.RSS\bin\Release\JetBrains.Annotations.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\Normacode.RSS\bin\Release\JetBrains.Annotations.xml
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\Normacode.RSS\obj\Release\Normacode.RSS.csprojResolveAssemblyReference.cache
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\Normacode.RSS\obj\Release\Normacode.RSS.dll
+C:\ProjetsGConf\NORMACODE\StockageDecisionsAgissantPPDS\Normacode.RSS\obj\Release\Normacode.RSS.pdb
